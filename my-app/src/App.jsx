@@ -1,21 +1,23 @@
 
 import './styles/App.css';
 import React from 'react';
-import Header from './Header';
-import Footer from './Footer';
-import Main from "./Main";
+
+import Footer from './components/Footer';
+import ContentRowMovies from './components/ContentRowMovies';
+import LastMovielnDb from './components/LastMovielnDb';
+import GenreslnDb from './components/GenreslnDb';
+
+
 
 
 
 function App() {
   return (
     <div className="App">
-    
-      <Header />
-      <Banner />
-      <Main />
-      <Footer />
-    
+    <ContentRowMovies/>
+    <LastMovielnDb/>
+    <GenreslnDb/>
+    <Footer/>
     </div>
   );
 }
