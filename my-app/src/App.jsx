@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+
 import './styles/App.css';
+import React from 'react';
+import Header from './Header';
+import Footer from './Footer';
+import Main from "./Main";
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-         Que mira bobo , anda pallá bobo
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+      <Header />
+      <Banner />
+      <Main />
+      <Footer />
+    
     </div>
   );
 }
