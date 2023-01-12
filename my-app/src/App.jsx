@@ -1,24 +1,17 @@
 
-import './styles/App.css';
 import React from 'react';
-
-import Footer from './components/Footer';
-import ContentRowMovies from './components/ContentRowMovies';
-import LastMovielnDb from './components/LastMovielnDb';
-import GenreslnDb from './components/GenreslnDb';
-
-
-
+import SlideBar from './SlideBar';
+import './styles/App.css'
 
 
 function App() {
   return (
-    <div className="App">
-    <ContentRowMovies/>
-    <LastMovielnDb/>
-    <GenreslnDb/>
-    <Footer/>
-    </div>
+    <React.Fragment>
+      	<div id="wrapper">
+          <SlideBar />
+          
+        </div>
+    </React.Fragment>
   );
 }
 
